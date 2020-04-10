@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 # Code from https://github.com/hit9/img2txt.git by Chao Wang
-import sys
-from docopt import docopt
 
 
 def HTMLColorToRGB(colorstring):

@@ -30,7 +30,7 @@ try: #Python3
     import urllib.request as urllib
 except:
     import urllib
-import optparse, re, sys, codecs, types
+import optparse, re, sys, codecs
 
 try: from textwrap import wrap
 except: pass

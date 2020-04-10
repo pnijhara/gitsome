@@ -14,8 +14,6 @@ logging.basicConfig(
     filemode="w"
 )
 log = logging.getLogger()
-
-import basiclex
 import basparse
 import basinterp
 
