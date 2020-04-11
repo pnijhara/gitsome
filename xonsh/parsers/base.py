@@ -1458,7 +1458,7 @@ class BaseParser(object):
 
     def p_comma_import_as_name_tail(self, p):
         """comma_import_as_name : comma_opt RPAREN"""
-        p[0] = list()
+        p[0] = []
 
     def p_dotted_as_name(self, p):
         """dotted_as_name : dotted_name as_name_opt"""
